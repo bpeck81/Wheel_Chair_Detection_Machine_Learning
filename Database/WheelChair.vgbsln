@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GestureBuilderFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<SolutionFile>
+		<Header>
+			<Date>2015-12-23</Date>
+			<Time>19:00:02.7176886-05:00</Time>
+			<Version>1</Version>
+			<Type>Solution</Type>
+			<ID>ed5e1576-323d-41c8-b8ee-e0554656c51d</ID>
+		</Header>
+		<Solution_Data>
+			<Files>
+				<Name />
+				<Content>
+					<Items>
+						<File>WheelChair.vgbproj</File>
+					</Items>
+					<Items>
+						<File>WheelChair.a.vgbproj</File>
+					</Items>
+				</Content>
+			</Files>
+		</Solution_Data>
+		<UI_State />
+		<Attributes />
+	</SolutionFile>
+</GestureBuilderFile>

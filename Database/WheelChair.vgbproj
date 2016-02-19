@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GestureBuilderFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ProjectFile>
+		<Header>
+			<Date>2015-12-23</Date>
+			<Time>18:47:52.2727267-05:00</Time>
+			<Version>5</Version>
+			<Type>AdaBoostTrigger</Type>
+			<Function>
+				<Type>Training</Type>
+				<ProjectAttribute Name="WheelChair" Type="BOOL" />
+				<ProjectAccompanyAttributes>
+					<Items Name="Confidence" Type="FLOAT" />
+					<Items Name="FirstFrameDetected" Type="BOOL" />
+				</ProjectAccompanyAttributes>
+				<DefaultTag xsi:type="BoolAttribute" Name="WheelChair" Value="false" />
+			</Function>
+			<ID>cd029a15-3b6a-4b56-a5e4-94812f4213c0</ID>
+		</Header>
+		<Project_Data>
+			<Files>
+				<Name />
+				<Content>
+					<Items>
+						<File>../../../WheelChairTrainingData/20151223_215209_00.vgbclip</File>
+					</Items>
+					<Items>
+						<File>../../../WheelChairTrainingData/20151223_215259_00.vgbclip</File>
+					</Items>
+					<Items>
+						<File>../../../WheelChairTrainingData/20151223_215330_00.vgbclip</File>
+					</Items>
+					<Items>
+						<File>../../../WheelChairTrainingData/20151223_215402_00.vgbclip</File>
+					</Items>
+					<Items>
+						<File>../../../WheelChairTrainingData/20151223_215453_00.vgbclip</File>
+					</Items>
+					<Items>
+						<File>../../../WheelChairTrainingData/20151223_215519_00.vgbclip</File>
+					</Items>
+					<Items>
+						<File>../../../WheelChairTrainingData/20151223_215620_00.vgbclip</File>
+					</Items>
+					<Items>
+						<File>../../../WheelChairTrainingData/20151223_215700_00.vgbclip</File>
+					</Items>
+					<Items>
+						<File>../../../WheelChairTrainingData/20151223_215750_00.vgbclip</File>
+					</Items>
+					<Items>
+						<File>../../../WheelChairTrainingData/20151223_215825_00.vgbclip</File>
+					</Items>
+					<Items>
+						<File>../../../WheelChairTrainingData/20151223_220008_00.vgbclip</File>
+					</Items>
+					<Items>
+						<File>../../../WheelChairTrainingData/20151223_220125_00.vgbclip</File>
+					</Items>
+					<Items>
+						<File>../../../WheelChairTrainingData/20151223_220140_00.vgbclip</File>
+					</Items>
+					<Items>
+						<File>../../../WheelChairTrainingData/20151223_220215_00.vgbclip</File>
+					</Items>
+					<Items>
+						<File>../../../WheelChairTrainingData/20151223_220523_00.vgbclip</File>
+					</Items>
+					<Items>
+						<File>../../../WheelChairTrainingData/20151223_220539_00.vgbclip</File>
+					</Items>
+					<Items>
+						<File>../../../WheelChairTrainingData/20151223_220608_00.vgbclip</File>
+					</Items>
+					<Items>
+						<File>../../../WheelChairTrainingData/20151223_220622_00.vgbclip</File>
+					</Items>
+					<Items>
+						<File>../../../WheelChairTrainingData/20151223_220641_00.vgbclip</File>
+					</Items>
+					<Items>
+						<File>../../../WheelChairTrainingData/20151223_220703_00.vgbclip</File>
+					</Items>
+					<Items>
+						<File>../../../WheelChairTrainingData/20151223_220718_00.vgbclip</File>
+					</Items>
+					<Items>
+						<File>../../../WheelChairTrainingData/20151223_220734_00.vgbclip</File>
+					</Items>
+					<Items>
+						<File>../../../WheelChairTrainingData/20151223_220748_00.vgbclip</File>
+					</Items>
+					<Items>
+						<File>../../../WheelChairTrainingData/20151223_220801_00.vgbclip</File>
+					</Items>
+					<Items>
+						<File>../../../WheelChairTrainingData/20151223_220835_00.vgbclip</File>
+					</Items>
+				</Content>
+			</Files>
+		</Project_Data>
+		<UI_State />
+		<Attributes>
+			<Items xsi:type="FloatAttribute" Name="Accuracy Level" Value="0.95" MaxValue="1" MinValue="0" />
+			<Items xsi:type="IntAttribute" Name="Number Weak Classifiers at Runtime" Value="1000" MinValue="0" />
+			<Items xsi:type="BoolAttribute" Name="Filter Results" Value="true" />
+			<Items xsi:type="BoolAttribute" Name="Auto Find Best Filtering Params" Value="true" />
+			<Items xsi:type="FloatAttribute" Name="Weight Of False Positives During Auto Find" Value="0.5" MaxValue="1" MinValue="0" />
+			<Items xsi:type="IntAttribute" Name="Manual Filter Params: Num Frames To Filter" Value="5" MaxValue="10" MinValue="1" />
+			<Items xsi:type="FloatAttribute" Name="Manual Filter Params: Threshold" Value="0.001" MaxValue="1" MinValue="0" />
+			<Items xsi:type="BoolAttribute" Name="Duplicate And Mirror Data During Training" Value="false" />
+			<Items xsi:type="IntAttribute" Name="% CPU For Training" Value="95" MaxValue="100" MinValue="1" />
+			<Items xsi:type="BoolAttribute" Name="Use Hands Data" Value="false" />
+			<Items xsi:type="BoolAttribute" Name="Ignore Left Arm" Value="false" />
+			<Items xsi:type="BoolAttribute" Name="Ignore Right Arm" Value="false" />
+			<Items xsi:type="BoolAttribute" Name="Ignore Lower Body" Value="false" />
+		</Attributes>
+	</ProjectFile>
+</GestureBuilderFile>
